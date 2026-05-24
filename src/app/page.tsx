@@ -12,7 +12,7 @@ import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
-import { Activity, Award, CheckCircle, Heart, Shield, Sparkles, Zap } from "lucide-react";
+import { Activity, Award, CheckCircle, Heart, Zap } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -33,87 +33,56 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Anasayfa",
-          id: "hero",
-        },
+          name: "Anasayfa",          id: "hero"},
         {
-          name: "Hakkımda",
-          id: "about",
-        },
+          name: "Hakkımda",          id: "about"},
         {
-          name: "Hizmetler",
-          id: "features",
-        },
+          name: "Hizmetler",          id: "features"},
         {
-          name: "İletişim",
-          id: "contact",
-        },
+          name: "İletişim",          id: "contact"},
       ]}
-      brandName="Kaan AKIN"
+      brandName="FİZYOSELVİ"
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroCentered
       background={{
-        variant: "plain",
-      }}
-      title="Uzman Fizyoterapist Kaan AKIN"
+        variant: "plain"}}
+      title="FİZYOSELVİ FİZYOTERAPİ KLİNİĞİ"
       description="Hareket özgürlüğünüzü geri kazanın. Kanıta dayalı fizyoterapi yaklaşımlarıyla ağrılarınızdan kurtulun ve yaşam kalitenizi artırın."
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/young-hispanic-man-working-pain-recovery-clinic-with-man-with-broken-arm-looking-unhappy-angry-showing-rejection-negative-with-thumbs-down-gesture-bad-expression_839833-10705.jpg",
-          alt: "Hasta 1",
-        },
+          src: "http://img.b2bpic.net/free-photo/young-hispanic-man-working-pain-recovery-clinic-with-man-with-broken-arm-looking-unhappy-angry-showing-rejection-negative-with-thumbs-down-gesture-bad-expression_839833-10705.jpg",          alt: "Hasta 1"},
         {
-          src: "http://img.b2bpic.net/free-photo/medical-assistant-helping-patient-with-physiotherapy-exercises_23-2149071445.jpg",
-          alt: "Hasta 2",
-        },
+          src: "http://img.b2bpic.net/free-photo/medical-assistant-helping-patient-with-physiotherapy-exercises_23-2149071445.jpg",          alt: "Hasta 2"},
         {
-          src: "http://img.b2bpic.net/free-photo/smiling-woman-holding-pen_1098-898.jpg",
-          alt: "Hasta 3",
-        },
+          src: "http://img.b2bpic.net/free-photo/smiling-woman-holding-pen_1098-898.jpg",          alt: "Hasta 3"},
         {
-          src: "http://img.b2bpic.net/free-photo/medical-assistant-helping-patient-with-physiotherapy-exercises_23-2149071439.jpg",
-          alt: "Hasta 4",
-        },
+          src: "http://img.b2bpic.net/free-photo/medical-assistant-helping-patient-with-physiotherapy-exercises_23-2149071439.jpg",          alt: "Hasta 4"},
         {
-          src: "http://img.b2bpic.net/free-photo/physiotherapist-helping-elderly-patient-with-hand-exercise-physiotherapy-clinic_662251-1734.jpg",
-          alt: "Hasta 5",
-        },
+          src: "http://img.b2bpic.net/free-photo/physiotherapist-helping-elderly-patient-with-hand-exercise-physiotherapy-clinic_662251-1734.jpg",          alt: "Hasta 5"},
       ]}
       avatarText="Binlerce mutlu hastanın tercihi"
       buttons={[
         {
-          text: "Randevu Al",
-          href: "#contact",
-        },
+          text: "Randevu Al",          href: "https://wa.me/905342014036"},
       ]}
       marqueeItems={[
         {
-          type: "text-icon",
-          text: "Kişiselleştirilmiş Tedavi",
-          icon: CheckCircle,
+          type: "text-icon",          text: "Kişiselleştirilmiş Tedavi",          icon: CheckCircle,
         },
         {
-          type: "text-icon",
-          text: "Modern Teknikler",
-          icon: Zap,
+          type: "text-icon",          text: "Modern Teknikler",          icon: Zap,
         },
         {
-          type: "text-icon",
-          text: "Bilimsel Yaklaşım",
-          icon: Activity,
+          type: "text-icon",          text: "Bilimsel Yaklaşım",          icon: Activity,
         },
         {
-          type: "text-icon",
-          text: "Uzman Deneyim",
-          icon: Award,
+          type: "text-icon",          text: "Uzman Deneyim",          icon: Award,
         },
         {
-          type: "text-icon",
-          text: "Konforlu İyileşme",
-          icon: Heart,
+          type: "text-icon",          text: "Konforlu İyileşme",          icon: Heart,
         },
       ]}
     />
@@ -127,17 +96,11 @@ export default function LandingPage() {
       description="Fizyoterapi sürecinde kişiselleştirilmiş analiz ve modern tekniklerle iyileşme sürecinizi optimize ediyoruz."
       bulletPoints={[
         {
-          title: "Manuel Terapi",
-          description: "Uluslararası standartlarda mobilizasyon teknikleri.",
-        },
+          title: "Manuel Terapi",          description: "Uluslararası standartlarda mobilizasyon teknikleri."},
         {
-          title: "Egzersiz Reçetesi",
-          description: "Size özel ev programları ve takip sistemi.",
-        },
+          title: "Egzersiz Reçetesi",          description: "Size özel ev programları ve takip sistemi."},
         {
-          title: "Modern Ekipman",
-          description: "En güncel cihazlarla tedavi desteği.",
-        },
+          title: "Modern Ekipman",          description: "En güncel cihazlarla tedavi desteği."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/front-view-male-doctor-medical-suit-displeased-yellow-wall_179666-23133.jpg"
       mediaAnimation="slide-up"
@@ -151,20 +114,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          icon: Sparkles,
-          title: "Ortopedik Rehabilitasyon",
-          description: "Ameliyat sonrası veya yaralanma sonrası toparlanma.",
-        },
+          icon: Activity,
+          title: "Ortopedik Rehabilitasyon",          description: "Ameliyat sonrası veya yaralanma sonrası toparlanma."},
         {
           icon: CheckCircle,
-          title: "Sporcu Sağlığı",
-          description: "Performans artırıcı ve sakatlık önleyici çalışmalar.",
-        },
+          title: "Sporcu Sağlığı",          description: "Performans artırıcı ve sakatlık önleyici çalışmalar."},
         {
-          icon: Shield,
-          title: "Kronik Ağrı Yönetimi",
-          description: "Bel, boyun ve eklem ağrılarına kalıcı çözümler.",
-        },
+          icon: Heart,
+          title: "Kronik Ağrı Yönetimi",          description: "Bel, boyun ve eklem ağrılarına kalıcı çözümler."},
       ]}
       title="Hizmet Alanlarımız"
       description="Kas ve iskelet sistemi sorunlarına yönelik kapsamlı çözümler."
@@ -179,20 +136,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       metrics={[
         {
-          id: "m1",
-          value: "1500+",
-          description: "İyileşen Hasta",
-        },
+          id: "m1",          value: "1500+",          description: "İyileşen Hasta"},
         {
-          id: "m2",
-          value: "10+",
-          description: "Yıllık Deneyim",
-        },
+          id: "m2",          value: "10+",          description: "Yıllık Deneyim"},
         {
-          id: "m3",
-          value: "98%",
-          description: "Hasta Memnuniyeti",
-        },
+          id: "m3",          value: "98%",          description: "Hasta Memnuniyeti"},
       ]}
       title="Başarılarımız"
       description="Verilerle fizyoterapi yolculuğumuz."
@@ -206,43 +154,18 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Ayşe Y.",
-          role: "Ofis Çalışanı",
-          testimonial: "Bel ağrılarım için Kaan Bey'e geldim, hayat kalitem değişti.",
-          imageSrc: "http://img.b2bpic.net/free-photo/female-doctor-showing-patient-how-use-medical-machine_23-2148328380.jpg",
-        },
+          id: "1",          name: "Ayşe Y.",          role: "Ofis Çalışanı",          testimonial: "Bel ağrılarım için kliniğe geldim, hayat kalitem değişti.",          imageSrc: "http://img.b2bpic.net/free-photo/female-doctor-showing-patient-how-use-medical-machine_23-2148328380.jpg"},
         {
-          id: "2",
-          name: "Mehmet K.",
-          role: "Sporcu",
-          testimonial: "Spor yaralanmamdan sonra beni çok hızlı sahaya döndürdü.",
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-doctor-speaking-with-patient_23-2147896697.jpg",
-        },
+          id: "2",          name: "Mehmet K.",          role: "Sporcu",          testimonial: "Spor yaralanmamdan sonra beni çok hızlı sahaya döndürdü.",          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-doctor-speaking-with-patient_23-2147896697.jpg"},
         {
-          id: "3",
-          name: "Zeynep S.",
-          role: "Öğretmen",
-          testimonial: "Duruş bozukluğu tedavisi ile boyun ağrılarım tamamen geçti.",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-cafe_273609-12673.jpg",
-        },
+          id: "3",          name: "Zeynep S.",          role: "Öğretmen",          testimonial: "Duruş bozukluğu tedavisi ile boyun ağrılarım tamamen geçti.",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-cafe_273609-12673.jpg"},
         {
-          id: "4",
-          name: "Can B.",
-          role: "Emekli",
-          testimonial: "Diz ağrılarım yüzünden yürüyemezken şimdi çok rahatım.",
-          imageSrc: "http://img.b2bpic.net/free-photo/medical-assistant-helping-patient-with-physiotherapy-exercises_23-2149071465.jpg",
-        },
+          id: "4",          name: "Can B.",          role: "Emekli",          testimonial: "Diz ağrılarım yüzünden yürüyemezken şimdi çok rahatım.",          imageSrc: "http://img.b2bpic.net/free-photo/medical-assistant-helping-patient-with-physiotherapy-exercises_23-2149071465.jpg"},
         {
-          id: "5",
-          name: "Deniz T.",
-          role: "Mühendis",
-          testimonial: "Çok ilgili ve bilgili bir fizyoterapist. Teşekkürler.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-african-american-doctor-nursing-home_637285-11403.jpg",
-        },
+          id: "5",          name: "Deniz T.",          role: "Mühendis",          testimonial: "Çok ilgili ve bilgili bir klinik. Teşekkürler.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-african-american-doctor-nursing-home_637285-11403.jpg"},
       ]}
       title="Hasta Deneyimleri"
-      description="Kaan Bey ile iyileşme yolculuğuna çıkanlar."
+      description="Bizimle iyileşme yolculuğuna çıkanlar."
     />
   </div>
 
@@ -255,35 +178,11 @@ export default function LandingPage() {
       description="Fizyoterapi ve sağlıklı yaşam üzerine güncel paylaşımlar."
       blogs={[
         {
-          id: "b1",
-          category: "Genel Sağlık",
-          title: "Doğru Oturma Pozisyonu",
-          excerpt: "Ofis çalışanları için ergonomi ipuçları...",
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-woman-standing-with-crossed-arms-red-t-shirt-looking-confident_176474-32890.jpg",
-          authorName: "Kaan AKIN",
-          authorAvatar: "http://img.b2bpic.net/free-photo/doctor-standing-hospital-premises_107420-84762.jpg",
-          date: "10.05.2024",
-        },
+          id: "b1",          category: "Genel Sağlık",          title: "Doğru Oturma Pozisyonu",          excerpt: "Ofis çalışanları için ergonomi ipuçları...",          imageSrc: "http://img.b2bpic.net/free-photo/mature-woman-standing-with-crossed-arms-red-t-shirt-looking-confident_176474-32890.jpg",          authorName: "FİZYOSELVİ",          authorAvatar: "http://img.b2bpic.net/free-photo/doctor-standing-hospital-premises_107420-84762.jpg",          date: "10.05.2024"},
         {
-          id: "b2",
-          category: "Spor",
-          title: "Sakatlık Önleme",
-          excerpt: "Spor öncesi ısınmanın önemi nedir?",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-rehabilitation-center-getting-treatment_23-2150356697.jpg",
-          authorName: "Kaan AKIN",
-          authorAvatar: "http://img.b2bpic.net/free-photo/african-american-nurse-evaluating-lab-test-results-discussing-recovery-plan_482257-122827.jpg",
-          date: "15.05.2024",
-        },
+          id: "b2",          category: "Spor",          title: "Sakatlık Önleme",          excerpt: "Spor öncesi ısınmanın önemi nedir?",          imageSrc: "http://img.b2bpic.net/free-photo/woman-rehabilitation-center-getting-treatment_23-2150356697.jpg",          authorName: "FİZYOSELVİ",          authorAvatar: "http://img.b2bpic.net/free-photo/african-american-nurse-evaluating-lab-test-results-discussing-recovery-plan_482257-122827.jpg",          date: "15.05.2024"},
         {
-          id: "b3",
-          category: "Manuel Terapi",
-          title: "Manuel Terapinin Gücü",
-          excerpt: "Elle yapılan tedavilerin avantajları nelerdir?",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-sports-people-training-morning-gym_1157-32132.jpg",
-          authorName: "Kaan AKIN",
-          authorAvatar: "http://img.b2bpic.net/free-photo/front-view-male-doctor-watching-something-yellow-wall_179666-13013.jpg",
-          date: "20.05.2024",
-        },
+          id: "b3",          category: "Manuel Terapi",          title: "Manuel Terapinin Gücü",          excerpt: "Elle yapılan tedavilerin avantajları nelerdir?",          imageSrc: "http://img.b2bpic.net/free-photo/young-sports-people-training-morning-gym_1157-32132.jpg",          authorName: "FİZYOSELVİ",          authorAvatar: "http://img.b2bpic.net/free-photo/front-view-male-doctor-watching-something-yellow-wall_179666-13013.jpg",          date: "20.05.2024"},
       ]}
     />
   </div>
@@ -294,20 +193,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",
-          title: "Seans süresi ne kadardır?",
-          content: "Seanslarımız genellikle 45-60 dakika sürmektedir.",
-        },
+          id: "q1",          title: "Seans süresi ne kadardır?",          content: "Seanslarımız genellikle 45-60 dakika sürmektedir."},
         {
-          id: "q2",
-          title: "Doktor sevkine gerek var mı?",
-          content: "Detaylı bir değerlendirme için doğrudan başvurabilirsiniz.",
-        },
+          id: "q2",          title: "Doktor sevkine gerek var mı?",          content: "Detaylı bir değerlendirme için doğrudan başvurabilirsiniz."},
         {
-          id: "q3",
-          title: "Kaç seans gerekir?",
-          content: "Tedavi süreci vaka bazlı değerlendirilir.",
-        },
+          id: "q3",          title: "Kaç seans gerekir?",          content: "Tedavi süreci vaka bazlı değerlendirilir."},
       ]}
       title="Sıkça Sorulan Sorular"
       description="Fizyoterapi sürecine dair merak edilenler."
@@ -319,50 +209,37 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={true}
       background={{
-        variant: "plain",
-      }}
-      text="Sağlıklı bir gelecek için ilk adımı atın. Randevu planlamak için iletişime geçin."
+        variant: "plain"}}
+      text="Sağlıklı bir gelecek için ilk adımı atın. Randevu planlamak için iletişime geçin. Email: demiralihasan99@gmail.com - Tel: 05342014036 - Adres: Kars Merkez, Şehitler Mahallesi, Şehitlik Caddesi 9c/2"
       buttons={[
         {
-          text: "WhatsApp'tan Randevu Al",
-          href: "https://wa.me/905xxxxxxxxx",
-        },
+          text: "WhatsApp'tan Randevu Al",          href: "https://wa.me/905342014036"},
       ]}
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterBaseReveal
-      logoText="Kaan AKIN"
+      logoText="FİZYOSELVİ"
       columns={[
         {
-          title: "Sayfalar",
-          items: [
+          title: "Sayfalar",          items: [
             {
-              label: "Hakkımda",
-              href: "#about",
-            },
+              label: "Hakkımda",              href: "#about"},
             {
-              label: "Hizmetler",
-              href: "#features",
-            },
+              label: "Hizmetler",              href: "#features"},
           ],
         },
         {
-          title: "İletişim",
-          items: [
+          title: "İletişim",          items: [
             {
-              label: "Konum",
-              href: "#",
-            },
+              label: "Randevu (05342014036)",              href: "https://wa.me/905342014036"},
             {
-              label: "Randevu",
-              href: "#contact",
-            },
+              label: "E-Posta",              href: "mailto:demiralihasan99@gmail.com"},
           ],
         },
       ]}
-      copyrightText="© 2024 Kaan AKIN Fizyoterapi."
+      copyrightText="© 2024 FİZYOSELVİ Fizyoterapi."
     />
   </div>
       </ReactLenis>
