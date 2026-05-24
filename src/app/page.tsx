@@ -41,7 +41,7 @@ export default function LandingPage() {
         {
           name: "İletişim",          id: "contact"},
       ]}
-      brandName="FİZYOSELVİ"
+      brandName="fizyoselvifizyoterapi.com"
     />
   </div>
 
@@ -49,7 +49,7 @@ export default function LandingPage() {
       <HeroCentered
       background={{
         variant: "plain"}}
-      title="FİZYOSELVİ FİZYOTERAPİ KLİNİĞİ"
+      title="fizyoselvifizyoterapi.com"
       description="Hareket özgürlüğünüzü geri kazanın. Kanıta dayalı fizyoterapi yaklaşımlarıyla ağrılarınızdan kurtulun ve yaşam kalitenizi artırın."
       avatars={[
         {
@@ -184,11 +184,11 @@ export default function LandingPage() {
       description="Fizyoterapi ve sağlıklı yaşam üzerine güncel paylaşımlar."
       blogs={[
         {
-          id: "b1",          category: "Genel Sağlık",          title: "Doğru Oturma Pozisyonu",          excerpt: "Ofis çalışanları için ergonomi ipuçları...",          imageSrc: "http://img.b2bpic.net/free-photo/mature-woman-standing-with-crossed-arms-red-t-shirt-looking-confident_176474-32890.jpg",          authorName: "FİZYOSELVİ",          authorAvatar: "http://img.b2bpic.net/free-photo/doctor-standing-hospital-premises_107420-84762.jpg",          date: "10.05.2024"},
+          id: "b1",          category: "Genel Sağlık",          title: "Doğru Oturma Pozisyonu",          excerpt: "Ofis çalışanları için ergonomi ipuçları...",          imageSrc: "http://img.b2bpic.net/free-photo/mature-woman-standing-with-crossed-arms-red-t-shirt-looking-confident_176474-32890.jpg",          authorName: "fizyoselvifizyoterapi.com",          authorAvatar: "http://img.b2bpic.net/free-photo/doctor-standing-hospital-premises_107420-84762.jpg",          date: "10.05.2024"},
         {
-          id: "b2",          category: "Spor",          title: "Sakatlık Önleme",          excerpt: "Spor öncesi ısınmanın önemi nedir?",          imageSrc: "http://img.b2bpic.net/free-photo/woman-rehabilitation-center-getting-treatment_23-2150356697.jpg",          authorName: "FİZYOSELVİ",          authorAvatar: "http://img.b2bpic.net/free-photo/african-american-nurse-evaluating-lab-test-results-discussing-recovery-plan_482257-122827.jpg",          date: "15.05.2024"},
+          id: "b2",          category: "Spor",          title: "Sakatlık Önleme",          excerpt: "Spor öncesi ısınmanın önemi nedir?",          imageSrc: "http://img.b2bpic.net/free-photo/woman-rehabilitation-center-getting-treatment_23-2150356697.jpg",          authorName: "fizyoselvifizyoterapi.com",          authorAvatar: "http://img.b2bpic.net/free-photo/african-american-nurse-evaluating-lab-test-results-discussing-recovery-plan_482257-122827.jpg",          date: "15.05.2024"},
         {
-          id: "b3",          category: "Manuel Terapi",          title: "Manuel Terapinin Gücü",          excerpt: "Elle yapılan tedavilerin avantajları nelerdir?",          imageSrc: "http://img.b2bpic.net/free-photo/young-sports-people-training-morning-gym_1157-32132.jpg",          authorName: "FİZYOSELVİ",          authorAvatar: "http://img.b2bpic.net/free-photo/front-view-male-doctor-watching-something-yellow-wall_179666-13013.jpg",          date: "20.05.2024"},
+          id: "b3",          category: "Manuel Terapi",          title: "Manuel Terapinin Gücü",          excerpt: "Elle yapılan tedavilerin avantajları nelerdir?",          imageSrc: "http://img.b2bpic.net/free-photo/young-sports-people-training-morning-gym_1157-32132.jpg",          authorName: "fizyoselvifizyoterapi.com",          authorAvatar: "http://img.b2bpic.net/free-photo/front-view-male-doctor-watching-something-yellow-wall_179666-13013.jpg",          date: "20.05.2024"},
       ]}
     />
   </div>
@@ -226,7 +226,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterBaseReveal
-      logoText="FİZYOSELVİ"
+      logoText="fizyoselvifizyoterapi.com"
       columns={[
         {
           title: "Sayfalar",          items: [
@@ -245,7 +245,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      copyrightText="© 2024 FİZYOSELVİ Fizyoterapi. fizyoselvifizyoterapi.com"
+      copyrightText="© 2024 fizyoselvifizyoterapi.com"
     />
   </div>
       </ReactLenis>
