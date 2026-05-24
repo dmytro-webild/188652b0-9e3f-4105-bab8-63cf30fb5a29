@@ -210,7 +210,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       background={{
         variant: "plain"}}
-      text="Sağlıklı bir gelecek için ilk adımı atın. Randevu planlamak için iletişime geçin. Email: demiralihasan99@gmail.com - Tel: 05342014036 - Adres: Kars Merkez, Şehitler Mahallesi, Şehitlik Caddesi 9c/2"
+      text="Sağlıklı bir gelecek için ilk adımı atın. Randevu planlamak için iletişime geçin. fizyoselvifizyoterapi.com - Tel: 05342014036 - Adres: Kars Merkez, Şehitler Mahallesi, Şehitlik Caddesi 9c/2"
       buttons={[
         {
           text: "WhatsApp'tan Randevu Al",          href: "https://wa.me/905342014036"},
@@ -227,7 +227,7 @@ export default function LandingPage() {
             {
               label: "Hakkımda",              href: "#about"},
             {
-              label: "Hizmetler",              href: "#features"},
+              label: "Hizmetler",              href: "href": "#features"},
           ],
         },
         {
@@ -235,11 +235,11 @@ export default function LandingPage() {
             {
               label: "Randevu (05342014036)",              href: "https://wa.me/905342014036"},
             {
-              label: "E-Posta",              href: "mailto:demiralihasan99@gmail.com"},
+              label: "Web Sitesi",              href: "https://fizyoselvifizyoterapi.com"},
           ],
         },
       ]}
-      copyrightText="© 2024 FİZYOSELVİ Fizyoterapi."
+      copyrightText="© 2024 FİZYOSELVİ Fizyoterapi. fizyoselvifizyoterapi.com"
     />
   </div>
       </ReactLenis>
