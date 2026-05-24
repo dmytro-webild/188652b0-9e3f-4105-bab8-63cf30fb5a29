@@ -12,7 +12,7 @@ import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
-import { Activity, Award, CheckCircle, Heart, Zap } from "lucide-react";
+import { Activity, Award, CheckCircle, Heart, Zap, Bone, HandHeart } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -96,11 +96,11 @@ export default function LandingPage() {
       description="Fizyoterapi sürecinde kişiselleştirilmiş analiz ve modern tekniklerle iyileşme sürecinizi optimize ediyoruz."
       bulletPoints={[
         {
-          title: "Manuel Terapi",          description: "Uluslararası standartlarda mobilizasyon teknikleri."},
+          title: "Manuel Terapi",          description: "Uluslararası standartlarda mobilizasyon teknikleri.", icon: HandHeart},
+        {
+          title: "Kayropraktik",          description: "Omurga sağlığı için güvenli ve etkili düzeltmeler.", icon: Bone},
         {
           title: "Egzersiz Reçetesi",          description: "Size özel ev programları ve takip sistemi."},
-        {
-          title: "Modern Ekipman",          description: "En güncel cihazlarla tedavi desteği."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/front-view-male-doctor-medical-suit-displeased-yellow-wall_179666-23133.jpg"
       mediaAnimation="slide-up"
@@ -116,6 +116,12 @@ export default function LandingPage() {
         {
           icon: Activity,
           title: "Ortopedik Rehabilitasyon",          description: "Ameliyat sonrası veya yaralanma sonrası toparlanma."},
+        {
+          icon: Bone,
+          title: "Kayropraktik",          description: "Omurga hareketliliği ve fonksiyonel düzeltmeler."},
+        {
+          icon: HandHeart,
+          title: "Manuel Terapi",          description: "Eklem ve yumuşak doku mobilizasyon teknikleri."},
         {
           icon: CheckCircle,
           title: "Sporcu Sağlığı",          description: "Performans artırıcı ve sakatlık önleyici çalışmalar."},
