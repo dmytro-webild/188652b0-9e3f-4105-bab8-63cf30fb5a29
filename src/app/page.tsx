@@ -138,7 +138,7 @@ export default function LandingPage() {
         {
           id: "m1",          value: "1500+",          description: "İyileşen Hasta"},
         {
-          id: "m2",          value: "10+",          description: "Yıllık Deneyim"},
+          id: "m2",          value: "5+",          description: "Yıllık Deneyim"},
         {
           id: "m3",          value: "98%",          description: "Hasta Memnuniyeti"},
       ]}
