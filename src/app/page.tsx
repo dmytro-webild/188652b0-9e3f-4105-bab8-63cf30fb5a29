@@ -49,7 +49,7 @@ export default function LandingPage() {
       <HeroCentered
       background={{
         variant: "plain"}}
-      title="fizyoselvifizyoterapi.com"
+      title="FİZYOSELVİ FİZYOTERAPİ "
       description="Hareket özgürlüğünüzü geri kazanın. Kanıta dayalı fizyoterapi yaklaşımlarıyla ağrılarınızdan kurtulun ve yaşam kalitenizi artırın."
       avatars={[
         {
