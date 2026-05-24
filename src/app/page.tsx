@@ -227,7 +227,7 @@ export default function LandingPage() {
             {
               label: "Hakkımda",              href: "#about"},
             {
-              label: "Hizmetler",              href: "href": "#features"},
+              label: "Hizmetler",              href: "#features"},
           ],
         },
         {
